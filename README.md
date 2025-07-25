@@ -78,9 +78,10 @@ README.md       # Project documentation
 ### 🔸 SVM:
 1. Brute-force search for weights `w` and bias `b`
 2. Ensure all points satisfy:  
-   $
-   y_i (w \cdot x_i + b) \geq 1
-   $
+ \[
+y_i (w \cdot x_i + b) \geq 1
+\]
+
 3. Choose the line that **maximizes the margin** = `1 / ||w||`
 
 ---
